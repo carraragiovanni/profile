@@ -1,0 +1,109 @@
+/* DIVs */
+.container {
+  width: 800px;
+  padding: 30px 0px 30px 0px;
+  background: white;
+  border-radius: 4px 4px 35px 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 3px rgb(167,173,186);
+  margin: 15px auto;
+  text-align: center;
+}
+
+.link-format {
+  width: 100px;
+  padding: 20px;
+  margin: 15px auto;
+  transition: transform 0.5s;
+}
+
+.link-format:hover {
+  transform: translateX(5px);
+}
+
+#top-container {
+  margin-top: 100px;
+  padding-bottom: 75px;
+}
+
+
+/* Text */
+body {
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  background-color: #A3A3A3;
+}
+
+h1 {
+  color: #175676;
+  transform: translateY(95px);
+}
+
+h2 {
+  color: #7A9E9F;
+  transform: translateY(75px);
+}
+
+i {
+  color: #161925;
+}
+
+.movie-poster-info {
+  padding: 25px;
+  text-align: left;
+}
+
+.movie-poster-text-2 {
+  text-align: left;
+}
+
+.link-color {
+  color: #175676;
+  text-decoration: none;
+  font-size: 24pt;
+}
+
+.top-description {
+  transform: translateY(75px);
+}
+
+/* List */
+.list-inline {
+  padding-left: 0;
+  display: flex;
+
+}
+.list-inline li {
+  display: inline-block;
+}
+
+.card-list-inline {
+  padding: 0;
+}
+
+/* Images */
+.profileimage-circle {
+  height: 250px;
+  border-radius: 50%;
+  transition: transform 0.25s;
+  margin: -100px;
+}
+
+.profileimage-circle:hover {
+  transform: rotate(360deg);
+}
+
+.movie-poster {
+  width: 175px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px #C3C3C3;
+}
+
+
+/* Coolors
+
+#161925 Eerie Black
+#A3A3A3 Quick Silver
+#175676 Blue Saphire
+#FF101F Vivd Red
+#7A9E9F Weldon Blue
